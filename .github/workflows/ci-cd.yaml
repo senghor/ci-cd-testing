@@ -22,7 +22,6 @@ jobs:
           path: ./dist
       - name: List CPU info
         run: lscpu
-        shell: bash
   # Deploy Job
   deploy:
     # Add a dependency to the build job
